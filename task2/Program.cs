@@ -1,4 +1,5 @@
-﻿int CreateNamber()
+﻿//найти наибольшее из трех чисел
+int CreateNamber()
 {
     int namber = new Random().Next(10,100);//возвращаем случайное число
     return namber;
